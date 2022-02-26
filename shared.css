@@ -5,7 +5,13 @@ header {
     width: 100%;
 }
 
+.ArturisImage{
+    width:100%;
+}
 
+.logoImage{
+    width:100%;
+}
 
 .header-navbar{
     width: 100%;
@@ -14,6 +20,14 @@ header {
 .header-navbar__Items{
     display: flex;
     list-style: none;
+}
+
+@media screen and (max-width:500px) {
+    .header-navbar__Items{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+    }
 }
 
 .header-navbar__Item{
